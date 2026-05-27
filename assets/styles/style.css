@@ -1,1 +1,7 @@
+.pixel-game {
+  /* Disables blurry anti-aliasing and forces crisp pixel scaling */
+  image-rendering: -moz-crisp-edges; /* Firefox fallback */
+  image-rendering: crisp-edges;      /* Modern standard */
+  image-rendering: pixelated;        /* Chrome, Safari, Edge */
+}
 
