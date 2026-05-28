@@ -19,3 +19,7 @@ body {
   margin-left: 3px;
   margin-right: 3px;
 }
+main {
+  position: absolute;
+  top: 28px;
+}
