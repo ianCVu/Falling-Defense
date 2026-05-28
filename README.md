@@ -1,2 +1,3 @@
 # Falling-Defense
-idk
+Falling Defense is a test game
+
