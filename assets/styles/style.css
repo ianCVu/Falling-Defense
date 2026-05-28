@@ -1,7 +1,68 @@
+body {
+  margin-left: 270px; 
+}
 .pixel-game {
   /* Disables blurry anti-aliasing and forces crisp pixel scaling */
   image-rendering: -moz-crisp-edges; /* Firefox fallback */
   image-rendering: crisp-edges;      /* Modern standard */
   image-rendering: pixelated;        /* Chrome, Safari, Edge */
 }
+#side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;       
+  height: 100vh;      
+  background-color: red;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;   
+}
+#side-bar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#side-bar li {
+  margin-bottom: 20px;
+}
+#side-bar a {
+  font-family: 'Impact', sans-serif;
+  font-size: 32px;               
+  color: blue;                   
+  font-weight: bold;
+  text-decoration: none;         
+  display: inline-block;
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+.game-preview {
+  margin: 30px 0 0 0; 
+  padding: 0;
+  width: 100%;
+}
+.game-preview img {
+  width: 100%;        
+  height: auto;
+  border: 3px solid #000; 
+  display: block;
+}
+.game-preview figcaption {
+  font-family: 'Impact', sans-serif;
+  font-size: 24px;
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 8px;  
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+
 
